@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 #
-# mini simulation to plot equifinality and show how it would look on GLUE
+# mini simulation to plot equifinality and show how it would look with GLUE
 # 
 parameter1 = np.linspace(0.02, 0.08, 150)
 paramater2 = np.linspace(0.1, 0.8, 150)
@@ -56,3 +56,4 @@ ax2.set_xlim(0, 365)
 plt.tight_layout()
 plt.savefig('equifinalityfig.png', dpi=300, bbox_inches='tight')
 plt.show()
+
